@@ -1,9 +1,9 @@
-*{margin: 0; padding: 0; line-height: 1; list-style: none;}
+*{margin: 0; padding: 0; line-height: 1; list-style: none; box-sizing: border-box;}
 a{text-decoration: none; color: #666;}
 .main-section{
     min-height: 100vh;
 }
-.mainpage{
+.main-section .mainpage{
     max-width: 1130px;
     height: 100vh;
     padding: 0 30px;
@@ -11,7 +11,7 @@ a{text-decoration: none; color: #666;}
     position: relative;
     /* background-color: blueviolet; */
 }
-.detail{
+.main-section .detail{
     width: 50%;
     position: absolute;
     top: 30%;
@@ -20,65 +20,85 @@ a{text-decoration: none; color: #666;}
     padding-right: 50px;
     /* background-color: #6244c5; */
 }
-.name{
+.main-section .name{
     margin-bottom: 32px;
 }
-.name h3{
+.main-section .name h3{
     font-size: 80px;
     font-weight: 500;
     letter-spacing: -4px;
     margin-bottom: 11px;
 }
-.text{
+.main-section .job{
+    font-size: 20px;
+    padding-left: 87px;
+    display: inline-block;
+    position: relative;
+}
+.main-section .job::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #12141d;
+    left: 0;
+    top: 13px;
+    width: 80px;
+}
+.main-section .text{
     margin-bottom: 70px;
 }
-.text p{
+.main-section .text p{
     font-size: 16px;
     color: #5a5a5a;
     line-height: 26px;
     max-width: 400px;
 }
-.button{
+.main-section .button{
     display: flex;
     align-items: center;
 }
-.left-button{
+.main-section .left-button{
     width: auto;
     background-color: #6244c5;
     display: inline-block;
     border-radius: 16px;
     padding: 22px 40px 23px;
 }
-.button .left-button a{
+.main-section .button .left-button a{
     color: #fdfdfd;
     font-weight: 700;
     white-space: nowrap;
     word-wrap: break-word;
     transition: all .3s ease;
 }
-.right-button{
+.main-section .right-button{
     width: auto;
     margin-left: 64px;
 }
-.right-button a{
+.main-section .right-button a{
     font-weight: 700;
     color: #ccc;
     display: inline-block;
 }
-.smalldetail{
+.main-section .smalldetail{
     position: absolute;
     bottom: 120px;
     display: flex;
     align-items: center;
 }
-.smalldetail ul{
+.main-section .smalldetail ul{
     position: relative;
     display: flex;
     align-items: center;
     top: 5px;
+    margin-left: 10px;
     margin: 0 0 0 20px;
 }
-.smalldetail ul li a{
+.main-section .smalldetail ul li{
+    margin-right: 10px;
+    margin: 0 20px 0 0;
+}
+.main-section .smalldetail ul li a{
     position: relative;
     display: inline-block;
     width: 56px;
@@ -86,4 +106,23 @@ a{text-decoration: none; color: #666;}
     background-color: #f6f6f6;
     border-radius: 100%;
     transition: all .3s ease;
+}
+.main-section .profileImg{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    bottom: 0;
+}
+.main-section .img{
+    position: relative;
+    display: inline-block;
+}
+.main-section .img img{
+    max-width: 500px;
+    max-height: 560px;
+}
+.main-section .video-button{
+    position: absolute;
+    bottom: 45px;
+    right: -45px;
 }

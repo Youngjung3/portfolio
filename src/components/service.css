@@ -1,0 +1,126 @@
+#service{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+#service .service-info{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding: 120px 0;
+    background-color: #fafafb;
+}
+#service .service-info .container{
+    max-width: 1250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0 40px;
+    position: relative;
+    clear: both;
+}
+#service .service-info .container .title{
+    width: 100%;
+    float: left;
+}
+#service .service-info .container .title h3{
+    letter-spacing: -2px;
+    font-size: 56px;
+    font-weight: 700;
+}
+#service .service-info .container .title h3 span{
+    position: relative;
+}
+#service .service-info .container .title h3 span::before{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 1px;
+    background-color: #12141d;
+    bottom: 16px;
+    margin-left: 15px;
+    left: 100%;
+}
+#service .service-info .container .service-list{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-top: 100px;
+    position: relative;
+}
+#service .service-info .container .service-list ul{
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    z-index: 2;
+}
+#service .service-info .container .service-list ul li{
+    margin: 0;
+    border-bottom: 1px solid #12141d;
+    position: relative;
+    background-color: #6244c5;
+}
+#service .service-info .container .service-list ul li:first-child{
+    border-top: 1px solid #12141d;
+}
+#service .service-info .container .service-list ul li .list-inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 27px 35px 26px 25px;
+}
+#service .service-info .container .service-list ul li .list-inner .left{
+    width: 40%;
+    display: flex;
+}
+#service .service-info .container .service-list ul li .list-inner .left .number{
+    display: inline-block;
+    color: #fff;;
+    font-size: 24px;
+    transition: all .3s ease;
+}
+#service .service-info .container .service-list ul li .list-inner .left .title{
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 30px;
+    transition: all .3s ease;
+    color: #fff;
+}
+#service .service-info .container .service-list ul li .list-inner .right{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#service .service-info .container .service-list ul li .list-inner .right .text{
+    padding-right: 150px;
+}
+#service .service-info .container .service-list ul li .list-inner .right .text p{
+    color: #fff;
+    transition: all .3s ease;
+}
+#service .service-info .container .service-list ul li .list-inner .right .arrow{
+    line-height: 1;
+}
+#service .service-info .container .service-list ul li .list-inner .link{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    cursor: pointer;
+}
+#service .service-info .container .service-list ul li .list-inner .servic-image{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    z-index: -111;
+}

@@ -1,0 +1,99 @@
+.intoSection{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+.intoSection .into-info{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    background-color: #fafafb;
+    padding: 120px 0;
+}
+.intoSection .into-info .container{
+    max-width: 1250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0 40px;
+    position: relative;
+    clear: both;
+}
+.intoSection .into-info .container .title{
+    width: 100%;
+    float: left;
+}
+.intoSection .into-info .container .title h3{
+    letter-spacing: -2px;
+    font-size: 56px;
+    font-weight: 700;
+}
+.intoSection .into-info .container .title h3 span{
+    position: relative;
+}
+.intoSection .into-info .container .title h3 span::before{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 1px;
+    background-color: #12141d;
+    bottom: 16px;
+    margin-left: 15px;
+    left: 100%;
+}
+.intoSection .into-info .container .in{
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: flex;
+    align-items: center;
+    padding-top: 75px;
+}
+.intoSection .into-info .container .in img{
+    max-height: 400px;
+    max-width: 350px;
+}
+.intoSection .into-info .container .in .info{
+    padding-left: 70px;
+}
+.intoSection .into-info .container .in .info .text{
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+.intoSection .into-info .container .in .info .text p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.intoSection .into-info .container .in .info .detail{
+    width: 100%;
+    float: left;
+    padding-left: 41px;
+}
+.intoSection .into-info .container .in .info .detail .name{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.intoSection .into-info .container .in .info .detail .name span{
+    position: relative;
+    display: inline-block;
+}
+.intoSection .into-info .container .in .info .detail .name span::before{
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 1px;
+    background-color: #12141d;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -41px;
+}
+.intoSection .into-info .container .in .info .detail .job{
+    font-size: 19px;
+    color: #707070;
+}

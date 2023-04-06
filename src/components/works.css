@@ -1,0 +1,46 @@
+.workSection{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+.workSection .work-info{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    background-color: #ffc448;
+    padding: 120px 0 110px;
+}
+.workSection .work-info .container{
+    max-width: 1250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0 40px;
+    position: relative;
+    clear: both;
+}
+.workSection .work-info .container .title{
+    width: 100%;
+    float: left;
+}
+.workSection .work-info .container .title h3{
+    letter-spacing: -2px;
+    font-size: 56px;
+    font-weight: 700;
+}
+.workSection .work-info .container .title h3 span{
+    position: relative;
+}
+.workSection .work-info .container .title h3 span::before{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 1px;
+    background-color: #12141d;
+    bottom: 16px;
+    margin-left: 15px;
+    left: 100%;
+}

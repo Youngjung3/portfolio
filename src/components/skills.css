@@ -1,0 +1,231 @@
+.skill-section {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+.skill-section .skill-info {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  margin-bottom: 125px;
+}
+.skill-section .skill-info .container {
+  max-width: 1250px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding: 0 40px;
+  position: relative;
+  clear: both;
+}
+.skill-section .skill-info .container .inner {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.skill-section .skill-info .container .inner .left {
+  width: 50%;
+  padding-right: 100px;
+}
+.skill-section .skill-info .container .inner .left .title {
+  width: 100%;
+  float: left;
+}
+.skill-section .skill-info .container .inner .left .title h3 {
+  letter-spacing: -2px;
+  font-size: 56px;
+  font-weight: 700;
+}
+.skill-section .skill-info .container .inner .left .title h3 span {
+  position: relative;
+}
+.skill-section .skill-info .container .inner .left .title h3 span::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 1px;
+  background-color: #12141d;
+  bottom: 16px;
+  margin-left: 15px;
+  left: 100%;
+}
+.skill-section .skill-info .container .inner .left .text {
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.skill-section .skill-info .container .inner .left .button {
+  width: 100%;
+  float: left;
+}
+.skill-section .skill-info .container .inner .left .button a {
+  text-decoration: none;
+  color: #fdfdfd;
+  font-weight: 700;
+  background-color: #6244c5;
+  border-radius: 16px;
+  padding: 22px 40px 23px;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: break-word;
+  transition: all 0.3s ease;
+}
+.skill-section .skill-info .container .inner .right{
+    width: 50%;
+    position: relative;
+    top: 33px;
+}
+.skill-section .skill-info .container .inner .right .filter{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.skill-section .skill-info .container .inner .right .filter ul{
+    margin: 0;
+    list-style-type: none;
+}
+.skill-section .skill-info .container .inner .right .filter ul li{
+    margin: 0 70px 0 0;
+    display: inline-block;
+}
+.skill-section .skill-info .container .inner .right .filter ul li a{
+    text-decoration: none;
+    color: #12141d;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.skill-section .skill-info .container .inner .right .filter .ccc{
+    top: -16px;
+    bottom: -20px;
+    left: -40px;
+    width: 159px;
+    border: 1px solid #12141d;
+    position: absolute;
+    z-index: -1;
+    border-radius: 16px;
+    transition: all .5s ease;
+}
+.skill-section .skill-info .container .inner .right .content{
+    width: 100%;
+    float: left;
+}
+.skill-section .skill-info .container .inner .right .content #tab_1{
+    display: block;
+    -webkit-animation: slide-down 1s ease;
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+.skill-section .skill-info .container .inner .right .content #tab_1 .skillbox{
+    width: 100%;
+    float: left;
+    margin-top: 110px;
+}
+.skill-section .skill-info .container .inner .right .content #tab_1 .skillbox ul{
+    margin: 0 0 0 -20px;
+    list-style-type: none;
+}
+.skill-section .skill-info .container .inner .right .content #tab_1 .skillbox ul li{
+    margin: 0 0 45px;
+    width: 33.3333%;
+    float: left;
+    padding-left: 20px;
+}
+.skill-section .skill-info .container .inner .right .content #tab_1 .skillbox ul li .list_inner{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #12141d;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 3px;
+}
+.icon .in{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    border-radius: 6px;
+}
+.name{
+    color: #000;
+}
+.name span{
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0 40px;
+    position: relative;
+    clear: both;
+}
+.container .counter-list{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+.container .counter-list ul{
+    margin: 0 0 0 -30px;
+    list-style-type: none;
+}
+.container .counter-list ul li{
+    margin: 0 0 30px;
+    float: left;
+    padding-left: 30px;
+    width: 25%;
+    text-align: center;
+}
+.container .counter-list ul li .list-inner{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+}
+.container .counter-list ul li .list-inner::before{
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 64px;
+    background-color: #ffc448;
+    border-radius: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 6px;
+    z-index: -1;
+}
+.container .counter-list ul li .list-inner h3{
+    font-weight: 400;
+    font-size: 64px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
+}
+.container .counter-list ul li .list-inner .title{
+    position: relative;
+    z-index: 2;
+}
