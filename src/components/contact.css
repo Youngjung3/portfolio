@@ -1,0 +1,149 @@
+.contact{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+.contact .contactinfo{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    background-color: #12141d;
+    padding: 135px 0 120px;
+    position: relative;
+}
+.contact .contactinfo .container{
+    max-width: 1250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0 40px;
+    position: relative;
+    clear: both;
+}
+.contact .contactinfo .container .infobox{
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 116px;
+}
+.contact .contactinfo .container .infobox .video-button{
+    position: relative;
+}
+.contact .contactinfo .container .infobox .video-button a{
+    position: relative;
+}
+.contact .contactinfo .container .infobox .video-button img{
+    max-width: 172px;
+    max-height: 172px;
+    animation: animCircle 15s linear infinite;
+}
+.contact .contactinfo .container .infobox .text{
+    padding: 0 115px;
+}
+.contact .contactinfo .container .infobox .text h3{
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -2px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.contact .contactinfo .container .infobox .text p{
+    font-weight: 300;
+    line-height: 32px;
+    color: hsla(0,0%,100%,.7);
+    word-wrap: break-word;
+}
+.contact .contactinfo .container .infobox .button{
+    width: auto;
+    float: left;
+}
+.contact .contactinfo .container .infobox .button a{
+    text-decoration: none;
+    color: #fdfdfd;
+    font-weight: 700;
+    background-color: #6244c5;
+    border-radius: 16px;
+    padding: 22px 40px 23px;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: break-word;
+    transition: all .3s ease;
+}
+.contact .contactinfo .container .connect{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .contactinfo .container .connect .left ul{
+    margin: 0;
+    list-style-type: none;
+}
+.contact .contactinfo .container .connect .left ul li{
+    margin: 0 50px 0 0;
+    display: inline-block;
+}
+.contact .contactinfo .container .connect .left ul li .name{
+    display: block;
+    color: hsla(0,0%,100%,.5);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.contact .contactinfo .container .connect .left ul li p{
+    display: block;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+}
+.contact .contactinfo .container .connect .left ul li p .line-effect{
+    color: #fff;
+    display: inline-block;
+    position: relative;
+}
+.contact .contactinfo .container .connect .left ul li p .line-effect::after{
+    content: "";
+    width: 0;
+    height: 1px;
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 3px;
+    bottom: -7px;
+    transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+    background: currentColor;
+}
+.contact .contactinfo .container .connect .right .follow{
+    display: flex;
+    align-items: center;
+}
+.contact .contactinfo .container .connect .right .follow span{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact .contactinfo .container .connect .right .follow ul{
+    list-style-type: none;
+    position: relative;
+    top: 5px;
+    margin: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+}
+.contact .contactinfo .container .connect .right .follow ul li{
+    margin: 0 20px 0 0;
+}
+.contact .contactinfo .container .connect .right .follow ul li a{
+    background-color: hsla(0,0%,100%,.15);
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    transition: all .3s ease;
+}

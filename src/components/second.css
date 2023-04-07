@@ -5,10 +5,6 @@
     float: left;
 }
 .secondSection .about{
-    width: 100%;
-    height: auto;
-    clear: both;
-    float: left;
     background-color: #6244c5;
     padding: 180px 0 120px;
     margin-bottom: 120px;
@@ -26,30 +22,32 @@
     padding-right: 50px;
 }
 .secondSection .about .inner .left .box{
+    position: relative;
     background-color: #ffc448;
     display: inline-block;
     overflow: hidden;
     padding-bottom: 85px;
-    position: relative;
 }
-.secondSection .about .inner .left .year{
+.secondSection .about .inner .left .box .year{
+    position: relative;
+    margin-bottom: 0;
+    margin-right: -30px;
+    line-height: 1;
+    margin-top: -95px;
     letter-spacing: -4px;
     font-weight: 800;
     font-size: 395px;
-    position: relative;
-    margin-right: -30px;
-    margin-top: -95px;
     color: #6244c5;
-    line-height: 1;
 }
-.secondSection .about .inner .left .exper{
+/* .secondSection .about .inner .left .box .year img{} */
+.secondSection .about .inner .left .box .exper{
     font-size: 24px;
-    padding-left: 50px;
+    padding-left: 120px;
     margin-top: 6px;
     display: inline-block;
 }
-.secondSection .about .inner .left .name{
-    font-size: 80px;
+.secondSection .about .inner .left .box .name{
+    font-size: 60px;
     color: #6244c5;
     font-weight: 700;
     letter-spacing: -4px;

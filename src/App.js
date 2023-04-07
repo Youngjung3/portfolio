@@ -19,3 +19,4 @@ function App() {
 }
 
 export default App;
+// three.js 로 메인페이지 3D구현

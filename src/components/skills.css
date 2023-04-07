@@ -58,6 +58,14 @@
   margin-top: 30px;
   margin-bottom: 40px;
 }
+.skill-section .skill-info .container .inner .left .text p{
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  word-wrap: break-word;
+  font-weight: 400;
+}
 .skill-section .skill-info .container .inner .left .button {
   width: 100%;
   float: left;
@@ -100,6 +108,10 @@
     position: relative;
     cursor: pointer;
 }
+.skill-section .skill-info .container .inner .right .filter ul li a img{
+  position: relative;
+  margin-left: 6px;
+}
 .skill-section .skill-info .container .inner .right .filter .ccc{
     top: -16px;
     bottom: -20px;
@@ -134,9 +146,9 @@
 }
 .skill-section .skill-info .container .inner .right .content #tab_1 .skillbox ul li{
     margin: 0 0 45px;
-    width: 33.3333%;
+    width: 25%;
     float: left;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 .skill-section .skill-info .container .inner .right .content #tab_1 .skillbox ul li .list_inner{
     width: 100%;

@@ -32,7 +32,7 @@ const ServiceSection = () => {
                             <li>
                                 <div className="list-inner">
                                     <div className="left">
-                                        <span className="number">01</span>
+                                        <span className="number">02</span>
                                         <h3 className="title">UI/UX Design</h3>
                                     </div>
                                     <div className="right">
@@ -50,7 +50,7 @@ const ServiceSection = () => {
                             <li>
                                 <div className="list-inner">
                                     <div className="left">
-                                        <span className="number">01</span>
+                                        <span className="number">03</span>
                                         <h3 className="title">UI/UX Design</h3>
                                     </div>
                                     <div className="right">
@@ -68,7 +68,7 @@ const ServiceSection = () => {
                             <li>
                                 <div className="list-inner">
                                     <div className="left">
-                                        <span className="number">01</span>
+                                        <span className="number">04</span>
                                         <h3 className="title">UI/UX Design</h3>
                                     </div>
                                     <div className="right">

@@ -4,6 +4,9 @@ import SkillsSection from "./SkillsSection";
 import ServiceSection from "./ServiceSection";
 import WorksSection from "./WorksSection";
 import IntoSection from "./IntoSection";
+import PostSection from "./PostSection";
+import SwiperSection from "./SwiperSection";
+import ContactSection from "./ContactSection";
 import "./MainPage.css";
 
 function MainPage() {
@@ -18,16 +21,19 @@ function MainPage() {
             </div>
             <div className="text">
               <p>
-                I`m creative designer based in korea, andI`m creative designer
-                based in korea, and
+              항상 새로운 기술과 개발 방법론에 관심을 가지며, 동료 개발자들과 함께 끊임없이 성장하는 것을 추구하는 김영중입니다.
               </p>
             </div>
             <div className="button">
               <div className="left-button">
-                <a href="#">Say Hello</a>
+                <a href="#">이력서보기
+                  <img src="./resumearrow.svg" alt="" />
+                </a>
               </div>
               <div className="right-button">
-                <a href="#">My Works</a>
+                <a href="#">작업물보기
+                  <img src="./arrow.svg" alt="" />
+                </a>
               </div>
             </div>
           </div>
@@ -60,6 +66,9 @@ function MainPage() {
       <ServiceSection />
       <WorksSection />
       <IntoSection />
+      <PostSection />
+      <SwiperSection />
+      <ContactSection />
     </div>
   );
 }

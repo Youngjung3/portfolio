@@ -8,25 +8,27 @@ const SecondSection = () => {
         <div className="inner">
           <div className="left">
             <div className="box">
-              <h3 className="year">10</h3>
+              <h3 className="year">{<img src="./infinity.svg" alt="" />}</h3>
               <span className="exper">Years of Experience</span>
-              <h3 className="name">YoungJung</h3>
+              <h3 className="name">young jung</h3>
             </div>
           </div>
           <div className="right">
             <div className="second-title">
                 <h3>
-                    <span>"About Me"</span>
+                    <span>5년간의 배움</span>
                 </h3>
             </div>
             <div className="text">
-                <p>With 10 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+                <p>2015.03 ~ 2022.02 컴퓨터공학부 졸업</p>
+                <p>2015.04 ~ 2022.02 ComVi 전공랩실 소속</p>
+                <p>2022.11 ~ 2023.05 그린컴퓨터학원 프론트앤드과정 수료</p>
             </div>
             <div className="bottom">
                 <div className="bottom-button">
-                    <a href="#">Download CV</a>
+                    <a href="#">이력서보기</a>
                 </div>
-                <img src="/" alt="" />
+                <img src="./sign.png" alt="" />
             </div>
           </div>
         </div>

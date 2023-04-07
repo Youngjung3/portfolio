@@ -34,11 +34,13 @@
     border-radius: 18px;
     padding: 17px 40px 18px;
     transition: all .3s ease;
-}
-a{
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0;
     word-wrap: break-word;
     font-weight: 400;
+}
+a{
+    letter-spacing: 0;
+    word-wrap: break-word;
 }

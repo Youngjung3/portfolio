@@ -1,0 +1,50 @@
+.swiperSection{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+.swiperSection .swiperinfo{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding: 40px 0 110px; 
+}
+.swiperSection .swiperinfo .container{
+    max-width: 1250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0 40px;
+    position: relative;
+    clear: both 
+}
+.swiperSection .swiperinfo .container .swiper-list{
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-top: 35px;
+    position: relative;
+}
+.swiperSection .swiperinfo .container .swiper-list .swiper{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.swiperSection .swiperinfo .container .swiper-list .swiper .swiper-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}

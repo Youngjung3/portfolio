@@ -1,12 +1,22 @@
+import React from "react";
+import "./footer.css";
+
 const Footer = () => {
-    return (
-        <div id="footer">
-        <a href="#!">회사소개</a>
-        <a href="#!">이용약관</a>
-        <a href="#!">통신판매업신고번호:123-1234</a>
-        <a href="#!">사업자등록번호:456-56-789743</a>
-        <a href="#!">고객센터:424-784512</a>
+  return (
+    <div id="footer">
+      <div className="info">
+        <div className="container">
+          <div className="footer-inner">
+            <div className="logo"><img src="" alt="" /></div>
+            <div className="copy">
+              <p>
+                @ 2023 by <a href="#">Codeefly.</a> All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    );
-  };
-  export default Footer;
+    </div>
+  );
+};
+export default Footer;
