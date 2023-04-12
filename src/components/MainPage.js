@@ -63,9 +63,9 @@ function MainPage() {
       </div>
       <SecondSection />
       <SkillsSection />
-      <ServiceSection />
+      {/* <ServiceSection /> */}
       <WorksSection />
-      <IntoSection />
+      {/* <IntoSection /> */}
       <PostSection />
       <SwiperSection />
       <ContactSection />

@@ -20,13 +20,75 @@
 .secondSection .about .inner .left{
     width: 50%;
     padding-right: 50px;
-}
-.secondSection .about .inner .left .box{
     position: relative;
+    top: 30px;
+}
+
+.secondSection .about .inner .left .second-title{
+    margin-bottom: 30px;
+    width: 100%;
+    float: left;
+}
+.secondSection .about .inner .left .second-title h3{
+    color: #fff;
+    letter-spacing: -2px;
+    font-size: 56px;
+    font-weight: 700;
+}
+.secondSection .about .inner .left a{
+    text-decoration: none;
+    color: #fff;
+}
+.secondSection .about .inner .left .text span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.secondSection .about .inner .left .text .bet{
+    color: hsla(0, 0%, 100%, .7);
+    font-weight: 300;
+    width: 100px;
+    font-size: 16px;
+}
+.secondSection .about .inner .left .second-title h3 span{
+    position: relative;
+}
+.secondSection .about .inner .left .second-title h3 span::before{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 1px;
+    bottom: 0px;
+    margin-left: 90px;
+    left: 100%;
+    background-color: #fff;
+}
+.secondSection .about .inner .left .text{
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.secondSection .about .inner .left .text p{
+    color: hsla(0, 0%, 100%, .7);
+    font-weight: 300;
+    line-height: 32px;
+}
+.secondSection .about .inner .left .bottom{
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.secondSection .about .inner .left .box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
     background-color: #ffc448;
     display: inline-block;
     overflow: hidden;
     padding-bottom: 85px;
+    opacity: 0.1;
 }
 .secondSection .about .inner .left .box .year{
     position: relative;
@@ -61,6 +123,7 @@
 .secondSection .about .inner .right{
     width: 50%;
     position: relative;
+    left: 70px;
 }
 .secondSection .about .inner .right .second-title{
     margin-bottom: 30px;
@@ -81,8 +144,8 @@
     content: "";
     width: 80px;
     height: 1px;
-    bottom: 16px;
-    margin-left: 15px;
+    bottom: 0;
+    margin-left: 90px;
     left: 100%;
     background-color: #fff;
 }

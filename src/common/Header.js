@@ -1,16 +1,30 @@
+import React from 'react'
 import {Link, useNavigate} from "react-router-dom";
 import "./Header.css";
+import lottie from 'lottie-web'
+import lottieAni from "./loop.json";
 
 
 const Header = () => {
+  const loop= React.useRef();
     let navigate=useNavigate();
+    React.useEffect(()=>{
+      lottie.loadAnimation(
+          {
+              container:loop.current,
+              animationData:lottieAni,
+              loop:true,
+              autoplay:true,
+          }
+      )
+  },[])
     return (
       <div>
         <div id="header">
           <div id="header-area">
             <div>
                 <Link to="/">
-                  logo
+                  <div ref={loop} style={{width:150, position:"absolute", left:0, top:0}}></div>
                 </Link>
             </div>
             <div className="nav">

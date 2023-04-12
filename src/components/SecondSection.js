@@ -7,6 +7,19 @@ const SecondSection = () => {
       <div className="about">
         <div className="inner">
           <div className="left">
+          <div className="second-title">
+                <h3>
+                    <span>기본사항</span>
+                </h3>
+            </div>
+            <div className="text">
+                <p><span className="bet">이름</span> : <span>김영중</span></p>
+                <p><span className="bet">연락처</span> : <span>010-</span></p>
+                <p><span className="bet">이메일</span> :<span> youngj5396@gmail.com</span></p>
+                <p><span className="bet">깃허브</span> :<span><a href="https://github.com/Youngjung3" target="blank"> https://github.com/Youngjung3</a></span></p>
+                <p><span className="bet">포트폴리오</span> : <span><a href="https://portfolio-delta-seven-18.vercel.app/" target="blank">https://portfolio-delta-seven-18.vercel.app/</a></span></p>
+                <p><span className="bet">거주지</span> : <span>경기도 안양</span></p>
+            </div>
             <div className="box">
               <h3 className="year">{<img src="./infinity.svg" alt="" />}</h3>
               <span className="exper">Years of Experience</span>
