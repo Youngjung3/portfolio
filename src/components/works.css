@@ -10,7 +10,7 @@
     clear: both;
     float: left;
     background-color: #ffc448;
-    padding: 120px 0 110px;
+    padding: 100px 0 50px;
 }
 .workSection .work-info .container{
     max-width: 1250px;
@@ -30,6 +30,7 @@
     letter-spacing: -2px;
     font-size: 56px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 .workSection .work-info .container .title h3 span{
     position: relative;

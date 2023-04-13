@@ -48,3 +48,63 @@
     transition-property: transform;
     box-sizing: content-box;
 }
+
+  .swiper {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper .list_inner{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .swiper .list_inner .img img{
+    width: 100%;
+  }
+  .swiper .list_inner .list-body .title{
+    text-align: left;
+    margin: 0 10px;
+    padding: 0 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ccc;
+  }
+  .swiper .list_inner .list-body .title::before{
+    content: "💥 ";
+  }
+  .swiper .list_inner .list-body .list-title{
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .swiper .list_inner .list-body p{
+    text-align: left;
+    margin-left: 20px;
+  }
+  .swiper .list_inner .list-body p span{
+    display: inline-block;
+    width: 100px;
+  }

@@ -202,7 +202,7 @@
     float: left;
 }
 .container .counter-list ul{
-    margin: 0 0 0 -30px;
+    margin: 10px 0 0 -30px;
     list-style-type: none;
 }
 .container .counter-list ul li{
@@ -224,12 +224,12 @@
     content: "";
     width: 64px;
     height: 64px;
-    background-color: #ffc448;
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 100%;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 6px;
-    z-index: -1;
+    z-index: 1;
 }
 .container .counter-list ul li .list-inner h3{
     font-weight: 400;
@@ -237,6 +237,9 @@
     margin-bottom: 10px;
     position: relative;
     z-index: 2;
+}
+.container .counter-list ul li .list-inner h3 .list-counter{
+  color: #6244c5;
 }
 .container .counter-list ul li .list-inner .title{
     position: relative;

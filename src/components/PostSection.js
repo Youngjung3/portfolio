@@ -1,5 +1,14 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+
 import "./post.css";
+import "./swiper.css";
+
+
+SwiperCore.use([Autoplay, Navigation]);
 
 const PostSection = () => {
   return (
@@ -9,150 +18,120 @@ const PostSection = () => {
           <div className="title">
             <h3>
               <span>
-                From my <br /> blog post
+                작업 <br /> 프로젝트
               </span>
             </h3>
           </div>
-          <div className="post-list">
-            <ul>
-              <li>
-                <div className="list-inner">
-                  <div className="left">
-                    <div className="metabox">
-                        <ul>
-                            <li>
-                                <span>
-                                    <a href="#">김영중</a>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <a href="#">04 April, 2023</a>
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="title">
-                        <h3>
-                            <a href="#">Diversification of digital marketing stategies</a>
-                        </h3>
-                    </div>
-                    <div className="button">
-                        <a href="#">Read More</a>
-                    </div>
+          <Swiper
+            centeredSlides={true}
+            slidesPerView={2}
+            spaceBetween={30}
+            autoplay={{
+              delay: 4000,
+              disableOnInteraction: false,
+            }}
+            navigation={true}
+            modules={[Autoplay, Navigation]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="list_inner">
+                <div className="img"><img src="./project1.png" alt="" /></div>
+                <div className="list-body">
+                  <div className="title">PROJECT 01</div>
+                  <div className="list-title">울진군문화관광</div>
+                  <div className="list-detail">
+                    <p><span>1. &nbsp;구&nbsp;현&nbsp;기&nbsp;술</span>: </p>
+                    <p><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: </p>
+                    <p><span>3. 작&nbsp;업&nbsp;기&nbsp;간</span>: </p>
+                    <p><span>4. 본인기여도</span>: </p>
+                    <p><span>5. 특징&nbsp;/&nbsp;기능</span>: </p>
                   </div>
-                  <div className="right">
-                    <img src="" alt="" />
-                    <div className="main"></div>
-                    <a href="#" className="link"></a>
-                  </div>
-                  <div className="shape"></div>
                 </div>
-              </li>
-              <li>
-                <div className="list-inner">
-                  <div className="left">
-                    <div className="metabox">
-                        <ul>
-                            <li>
-                                <span>
-                                    <a href="#">김영중</a>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <a href="#">04 April, 2023</a>
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="title">
-                        <h3>
-                            <a href="#">Diversification of digital marketing stategies</a>
-                        </h3>
-                    </div>
-                    <div className="button">
-                        <a href="#">Read More</a>
-                    </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="list_inner">
+                <div className="img"><img src="./project1.png" alt="" /></div>
+                <div className="list-body">
+                  <div className="title">PROJECT 01</div>
+                  <div className="list-title">울진군문화관광</div>
+                  <div className="list-detail">
+                    <p><span>1. &nbsp;구&nbsp;현&nbsp;기&nbsp;술</span>: </p>
+                    <p><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: </p>
+                    <p><span>3. 작&nbsp;업&nbsp;기&nbsp;간</span>: </p>
+                    <p><span>4. 본인기여도</span>: </p>
+                    <p><span>5. 특징&nbsp;/&nbsp;기능</span>: </p>
                   </div>
-                  <div className="right">
-                    <img src="" alt="" />
-                    <div className="main"></div>
-                    <a href="#" className="link"></a>
-                  </div>
-                  <div className="shape"></div>
                 </div>
-              </li>
-              <li>
-                <div className="list-inner">
-                  <div className="left">
-                    <div className="metabox">
-                        <ul>
-                            <li>
-                                <span>
-                                    <a href="#">김영중</a>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <a href="#">04 April, 2023</a>
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="title">
-                        <h3>
-                            <a href="#">Diversification of digital marketing stategies</a>
-                        </h3>
-                    </div>
-                    <div className="button">
-                        <a href="#">Read More</a>
-                    </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="list_inner">
+                <div className="img"><img src="./project1.png" alt="" /></div>
+                <div className="list-body">
+                  <div className="title">PROJECT 01</div>
+                  <div className="list-title">울진군문화관광</div>
+                  <div className="list-detail">
+                    <p><span>1. &nbsp;구&nbsp;현&nbsp;기&nbsp;술</span>: </p>
+                    <p><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: </p>
+                    <p><span>3. 작&nbsp;업&nbsp;기&nbsp;간</span>: </p>
+                    <p><span>4. 본인기여도</span>: </p>
+                    <p><span>5. 특징&nbsp;/&nbsp;기능</span>: </p>
                   </div>
-                  <div className="right">
-                    <img src="" alt="" />
-                    <div className="main"></div>
-                    <a href="#" className="link"></a>
-                  </div>
-                  <div className="shape"></div>
                 </div>
-              </li>
-              <li>
-                <div className="list-inner">
-                  <div className="left">
-                    <div className="metabox">
-                        <ul>
-                            <li>
-                                <span>
-                                    <a href="#">김영중</a>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <a href="#">04 April, 2023</a>
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="title">
-                        <h3>
-                            <a href="#">Diversification of digital marketing stategies</a>
-                        </h3>
-                    </div>
-                    <div className="button">
-                        <a href="#">Read More</a>
-                    </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="list_inner">
+                <div className="img"><img src="./project1.png" alt="" /></div>
+                <div className="list-body">
+                  <div className="title">PROJECT 01</div>
+                  <div className="list-title">울진군문화관광</div>
+                  <div className="list-detail">
+                    <p><span>1. &nbsp;구&nbsp;현&nbsp;기&nbsp;술</span>: </p>
+                    <p><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: </p>
+                    <p><span>3. 작&nbsp;업&nbsp;기&nbsp;간</span>: </p>
+                    <p><span>4. 본인기여도</span>: </p>
+                    <p><span>5. 특징&nbsp;/&nbsp;기능</span>: </p>
                   </div>
-                  <div className="right">
-                    <img src="" alt="" />
-                    <div className="main"></div>
-                    <a href="#" className="link"></a>
-                  </div>
-                  <div className="shape"></div>
                 </div>
-              </li>
-            </ul>
-          </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="list_inner">
+                <div className="img"><img src="./project1.png" alt="" /></div>
+                <div className="list-body">
+                  <div className="title">PROJECT 01</div>
+                  <div className="list-title">울진군문화관광</div>
+                  <div className="list-detail">
+                    <p><span>1. &nbsp;구&nbsp;현&nbsp;기&nbsp;술</span>: </p>
+                    <p><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: </p>
+                    <p><span>3. 작&nbsp;업&nbsp;기&nbsp;간</span>: </p>
+                    <p><span>4. 본인기여도</span>: </p>
+                    <p><span>5. 특징&nbsp;/&nbsp;기능</span>: </p>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="list_inner">
+                <div className="img"><img src="./project1.png" alt="" /></div>
+                <div className="list-body">
+                  <div className="title">PROJECT 01</div>
+                  <div className="list-title">울진군문화관광</div>
+                  <div className="list-detail">
+                    <p><span>1. &nbsp;구&nbsp;현&nbsp;기&nbsp;술</span>: </p>
+                    <p><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: </p>
+                    <p><span>3. 작&nbsp;업&nbsp;기&nbsp;간</span>: </p>
+                    <p><span>4. 본인기여도</span>: </p>
+                    <p><span>5. 특징&nbsp;/&nbsp;기능</span>: </p>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+         
+          </Swiper>
         </div>
       </div>
     </div>

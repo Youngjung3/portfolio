@@ -67,7 +67,7 @@ function MainPage() {
       <WorksSection />
       {/* <IntoSection /> */}
       <PostSection />
-      <SwiperSection />
+      {/* <SwiperSection /> */}
       <ContactSection />
     </div>
   );

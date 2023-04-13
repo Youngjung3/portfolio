@@ -37,18 +37,23 @@
 }
 .secondSection .about .inner .left a{
     text-decoration: none;
-    color: #fff;
+    color: hsla(0, 0%, 100%, 0.8);
+    z-index: 99;
 }
 .secondSection .about .inner .left .text span{
     font-size: 18px;
-    font-weight: bold;
-    color: #fff;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.8);
 }
 .secondSection .about .inner .left .text .bet{
-    color: hsla(0, 0%, 100%, .7);
+    color: hsla(0, 0%, 100%);
     font-weight: 300;
-    width: 100px;
-    font-size: 16px;
+    width: 83px;
+    font-size: 18px;
+    display: inline-block;
+}
+.secondSection .about .inner .left .text .bet1{
+    letter-spacing: 1.5px;
 }
 .secondSection .about .inner .left .second-title h3 span{
     position: relative;
@@ -67,6 +72,7 @@
     width: 100%;
     float: left;
     margin-bottom: 50px;
+    z-index: 999;
 }
 .secondSection .about .inner .left .text p{
     color: hsla(0, 0%, 100%, .7);
@@ -89,6 +95,7 @@
     overflow: hidden;
     padding-bottom: 85px;
     opacity: 0.1;
+    z-index: 1;
 }
 .secondSection .about .inner .left .box .year{
     position: relative;

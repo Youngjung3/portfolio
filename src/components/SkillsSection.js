@@ -26,8 +26,8 @@ const SkillsSection = () => {
                             <div className="filter">
                                 <ul>
                                     <li><a href="#" className="c-pointer" data-tab="tab_1"><span>Skills</span><img src="arrow.svg" alt="" /></a></li>
-                                    <li><a href="#" className="c-pointer" data-tab="tab_2"><span>Experience</span><img src="arrow.svg" alt="" /></a></li>
-                                    <li><a href="#" className="c-pointer" data-tab="tab_3"><span>Education</span><img src="arrow.svg" alt="" /></a></li>
+                                    {/* <li><a href="#" className="c-pointer" data-tab="tab_2"><span>Experience</span><img src="arrow.svg" alt="" /></a></li> */}
+                                    {/* <li><a href="#" className="c-pointer" data-tab="tab_3"><span>Education</span><img src="arrow.svg" alt="" /></a></li> */}
                                 </ul>
                                 <span className="ccc"></span>
                             </div>
