@@ -1,4 +1,8 @@
 import React from "react";
+import { DiJava, DiReact, DiJavascript1, DiMysql, DiNodejsSmall } from 'react-icons/di';
+import { FaPhp, FaJava, FaVuejs } from 'react-icons/fa';
+import { CgCPlusPlus } from 'react-icons/cg';
+import { TbBrandReactNative, TbDatabase, TbBrandPython } from 'react-icons/tb';
 import "./skills.css";
 
 const SkillsSection = () => {
@@ -38,7 +42,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><DiReact /></span>
                                                     </span>
                                                     <p className="name">React
                                                         <span>(90%)</span>
@@ -48,7 +52,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><TbBrandReactNative /></span>
                                                     </span>
                                                     <p className="name">React-Native
                                                         <span>(90%)</span>
@@ -58,7 +62,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><FaVuejs /></span>
                                                     </span>
                                                     <p className="name">Vue
                                                         <span>(90%)</span>
@@ -68,7 +72,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><DiJavascript1 /></span>
                                                     </span>
                                                     <p className="name">JavaScript
                                                         <span>(90%)</span>
@@ -78,7 +82,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><DiMysql /></span>
                                                     </span>
                                                     <p className="name">MySQL
                                                         <span>(90%)</span>
@@ -88,7 +92,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><TbDatabase /></span>
                                                     </span>
                                                     <p className="name">Oracle
                                                         <span>(90%)</span>
@@ -98,7 +102,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><DiNodejsSmall /></span>
                                                     </span>
                                                     <p className="name">Node.js
                                                         <span>(90%)</span>
@@ -108,7 +112,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><FaJava /></span>
                                                     </span>
                                                     <p className="name">JSP
                                                         <span>(90%)</span>
@@ -118,7 +122,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><FaPhp /></span>
                                                     </span>
                                                     <p className="name">PHP
                                                         <span>(90%)</span>
@@ -128,7 +132,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><CgCPlusPlus /></span>
                                                     </span>
                                                     <p className="name">C++
                                                         <span>(90%)</span>
@@ -138,7 +142,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><DiJava /></span>
                                                     </span>
                                                     <p className="name">JAVA
                                                         <span>(90%)</span>
@@ -148,7 +152,7 @@ const SkillsSection = () => {
                                             <li>
                                                 <div className="list_inner">
                                                     <span className="icon">
-                                                        <span className="in">f</span>
+                                                        <span className="in"><TbBrandPython /></span>
                                                     </span>
                                                     <p className="name">Python
                                                         <span>(90%)</span>
