@@ -1,18 +1,22 @@
 import React from "react";
 import SecondSection from "./SecondSection";
 import SkillsSection from "./SkillsSection";
-import ServiceSection from "./ServiceSection";
+// import ServiceSection from "./ServiceSection";
 import WorksSection from "./WorksSection";
-import IntoSection from "./IntoSection";
+// import IntoSection from "./IntoSection";
 import PostSection from "./PostSection";
-import SwiperSection from "./SwiperSection";
+// import SwiperSection from "./SwiperSection";
 import ContactSection from "./ContactSection";
 import "./MainPage.css";
 
 function MainPage() {
+  const scrollToWorks = () => {
+    const worksSection = document.getElementById("postSection");
+    worksSection.scrollIntoView({ behavior: "smooth" });
+  }
   return (
     <div>
-      <div className="main-section">
+      <div className="main-section" id="main-section">
         <div className="mainpage">
           <div className="detail">
             <div className="name">
@@ -26,12 +30,12 @@ function MainPage() {
             </div>
             <div className="button">
               <div className="left-button">
-                <a href="#">이력서보기
+                <a href="resume.pdf" target={"_blank"}>이력서보기
                   <img src="./resumearrow.svg" alt="" />
                 </a>
               </div>
               <div className="right-button">
-                <a href="#">작업물보기
+                <a onClick={scrollToWorks} className="a-link">작업물보기
                   <img src="./arrow.svg" alt="" />
                 </a>
               </div>

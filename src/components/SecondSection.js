@@ -3,7 +3,7 @@ import "./second.css";
 
 const SecondSection = () => {
   return (
-    <div className="secondSection">
+    <div className="secondSection" id="secondSection">
       <div className="about">
         <div className="inner">
           <div className="left">
@@ -15,7 +15,7 @@ const SecondSection = () => {
             <div className="text">
                 <p><span className="bet">이 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 름</span> : <span className="bet1">김영중</span></p>
                 <p><span className="bet bet1">생년월일</span> : <span>96.10.25</span></p>
-                <p><span className="bet">연&nbsp;&nbsp;락&nbsp;&nbsp;처</span> : <span>010-</span></p>
+                <p><span className="bet">연&nbsp;&nbsp;락&nbsp;&nbsp;처</span> : <span>010-2733-5396</span></p>
                 <p><span className="bet">이&nbsp;&nbsp;메&nbsp;&nbsp;일</span> :<span> youngj5396@gmail.com</span></p>
                 <p><span className="bet">깃&nbsp;&nbsp;허&nbsp;&nbsp;브</span> :<span><a href="https://github.com/Youngjung3" target="blank"> https://github.com/Youngjung3</a></span></p>
                 <p><span className="bet">거&nbsp;&nbsp;주&nbsp;&nbsp;지</span> : <span>경기도 안양</span></p>
@@ -39,7 +39,7 @@ const SecondSection = () => {
             </div>
             <div className="bottom">
                 <div className="bottom-button">
-                    <a href="#">이력서보기</a>
+                <a href="resume.pdf" target={"_blank"}>이력서보기</a>
                 </div>
                 {/* <img src="./sign.png" alt="" /> */}
             </div>

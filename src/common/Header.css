@@ -32,7 +32,7 @@
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 18px;
-    padding: 17px 40px 18px;
+    padding: 17px 20px 18px;
     transition: all .3s ease;
     font-size: 18px;
     line-height: 28px;
@@ -43,4 +43,5 @@
 a{
     letter-spacing: 0;
     word-wrap: break-word;
+    cursor: pointer;
 }

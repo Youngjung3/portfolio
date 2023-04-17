@@ -126,3 +126,6 @@ a{text-decoration: none; color: #666;}
     bottom: 45px;
     right: -45px;
 }
+.a-link{
+    cursor: pointer;
+}

@@ -64,14 +64,21 @@
     align-items: center;
     border: 1px solid #ccc;
   }
-  
+  .swiper-slide a{
+    text-decoration: none;
+    color: #000;
+  }
   .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  
+  .swiper-slide .img{
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+  }
   .swiper .list_inner{
     width: 90%;
     margin: auto;
@@ -103,7 +110,6 @@
     font-weight: 500;
     border-bottom: 1px solid #ccc;
   }
-
   .swiper .list_inner .list-body p{
     text-align: left;
     margin-left: 20px;

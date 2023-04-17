@@ -32,7 +32,7 @@ const WorksSection = () => {
       window.addEventListener('scroll',onScroll)
     },[isAnimated]);
   return (
-    <div className="workSection">
+    <div className="workSection" id="workSection">
         <div className="work-info">
             {/* <div className="container">
                 <div className="title">
