@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import SecondSection from "./SecondSection";
 import SkillsSection from "./SkillsSection";
 // import ServiceSection from "./ServiceSection";
@@ -8,8 +8,17 @@ import PostSection from "./PostSection";
 // import SwiperSection from "./SwiperSection";
 import ContactSection from "./ContactSection";
 import "./MainPage.css";
+// import React, { useRef, Suspense } from "react";
+import * as THREE from 'three'
+import React, { Suspense, useRef } from 'react'
+// import { Canvas, useFrame } from '@react-three/fiber'
+// import { Html, Environment, useGLTF, ContactShadows, OrbitControls } from '@react-three/drei'
+// import HeroPage from './HeroPage'
 
 function MainPage() {
+  const handleCamera = (prop) => {
+    console.log("handleCamera:", prop.camera);
+  };
   const scrollToWorks = () => {
     const worksSection = document.getElementById("postSection");
     worksSection.scrollIntoView({ behavior: "smooth" });
@@ -41,25 +50,27 @@ function MainPage() {
               </div>
             </div>
           </div>
-          <div className="smalldetail">
+          {/* <div className="smalldetail">
             <span>Follow me:</span>
             <ul>
               <li>
-                <a href="#"></a>
+                <a href="#!"></a>
               </li>
               <li>
-                <a href="#"></a>
+                <a href="#!"></a>
               </li>
               <li>
-                <a href="#"></a>
+                <a href="#!"></a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="profileImg">
             <div className="img">
-              <img src="../public/pic1.jpg" alt="" />
+            <div class="three">
+            </div>
+              {/* <img src="/pic1.jpg" alt="" /> */}
               <div className="video-button">
-                <a href="#" className="video"></a>
+                <a href="#!" className="video"></a>
               </div>
             </div>
           </div>

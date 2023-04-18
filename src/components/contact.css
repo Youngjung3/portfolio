@@ -31,7 +31,11 @@
     justify-content: space-between;
     margin-bottom: 116px;
 }
-.contact .contactinfo .container .infobox .video-button{
+.contact .contactinfo .container .infobox .three{
+    max-width: 300px;
+    width: 100%;
+}
+/* .contact .contactinfo .container .infobox .video-button{
     position: relative;
 }
 .contact .contactinfo .container .infobox .video-button a{
@@ -41,7 +45,7 @@
     max-width: 172px;
     max-height: 172px;
     animation: animCircle 15s linear infinite;
-}
+} */
 .contact .contactinfo .container .infobox .text{
     padding: 0 115px;
 }
@@ -78,7 +82,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center
+    /* justify-content: space-between; */
 }
 .contact .contactinfo .container .connect .left ul{
     margin: 0;
@@ -146,4 +151,11 @@
     height: 56px;
     border-radius: 100%;
     transition: all .3s ease;
+}
+.contact .contactinfo .container .connect .right .follow #copy-button{
+    background-color: #12141d;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
 }

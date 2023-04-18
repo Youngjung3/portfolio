@@ -35,7 +35,7 @@ const SkillsSection = () => {
         const onScroll=()=>{
           const currentPosition=window.pageYOffset+window.innerHeight;
           const targetPosition=numberRef.current.offsetTop + numberRef.current.offsetHeight/2;
-          if(!isAnimated && currentPosition >= targetPosition){
+          if(!isAnimated && currentPosition >= targetPosition +2000){
             setIsAnimated(true);
           }
         };
