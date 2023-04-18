@@ -253,3 +253,12 @@
     position: relative;
     z-index: 2;
 }
+@media screen and (max-width: 987px) {
+  .skill-section .skill-info .container .inner .right .content #tab_1 .skillbox ul li{
+    width: 50%;
+  }
+  .skill-section .skill-info .container .inner .right .content #tab_1 .skillbox ul li .list_inner{
+    width: 100%;
+    height: 50px;
+  }
+}

@@ -71,7 +71,7 @@ const ContactSection = () => {
                             <img src="" alt="" />
                         </a>
                     </div> */}
-            <div class="three">
+            <div className="three">
                 <Canvas
                   onCreated={handleCamera}
                   camera={{ position: [20, 20, 40], fov: 75, near: 0.1, far: 500 }}

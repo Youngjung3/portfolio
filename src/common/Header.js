@@ -61,7 +61,7 @@ const Header = () => {
                 <a onClick={scrollToWorks3}>Skills</a>
               </li>
               <li>
-                <a onClick={scrollToWorks4}>confident</a>
+                <a onClick={scrollToWorks4}>Confident</a>
               </li>
               <li>
                 <a onClick={scrollToWorks5}>Projects</a>

@@ -1,11 +1,11 @@
 *{margin: 0; padding: 0; line-height: 1; list-style: none; box-sizing: border-box;}
 a{text-decoration: none; color: #666;}
 .main-section{
-    min-height: 100vh;
+    min-height: 90vh;
 }
 .main-section .mainpage{
     max-width: 1130px;
-    height: 100vh;
+    height: 90vh;
     padding: 0 30px;
     margin: auto;
     position: relative;
@@ -23,11 +23,16 @@ a{text-decoration: none; color: #666;}
 .main-section .name{
     margin-bottom: 32px;
 }
+/* .main-section .name h1{} */
 .main-section .name h3{
     font-size: 80px;
     font-weight: 500;
     letter-spacing: -4px;
     margin-bottom: 11px;
+}
+.main-section .name h3 span{
+    font-size: 40px;
+    font-weight: 400;
 }
 .main-section .job{
     font-size: 20px;
@@ -60,6 +65,8 @@ a{text-decoration: none; color: #666;}
 .main-section .left-button{
     width: auto;
     background-color: #6244c5;
+    color: #fff;
+    font-weight: 700;
     display: inline-block;
     border-radius: 16px;
     padding: 22px 40px 23px;
@@ -110,8 +117,11 @@ a{text-decoration: none; color: #666;}
 .main-section .profileImg{
     position: absolute;
     width: 50%;
-    right: 0;
-    bottom: 0;
+    right: 0px;
+    bottom: 35%;
+    transform: scale(1.5);
+    transform-origin: top left; 
+    filter: blur(10px);
 }
 .main-section .img{
     position: relative;

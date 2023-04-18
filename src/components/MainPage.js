@@ -8,28 +8,18 @@ import PostSection from "./PostSection";
 // import SwiperSection from "./SwiperSection";
 import ContactSection from "./ContactSection";
 import "./MainPage.css";
-// import React, { useRef, Suspense } from "react";
-import * as THREE from 'three'
-import React, { Suspense, useRef } from 'react'
-// import { Canvas, useFrame } from '@react-three/fiber'
-// import { Html, Environment, useGLTF, ContactShadows, OrbitControls } from '@react-three/drei'
-// import HeroPage from './HeroPage'
+import React from 'react'
+
 
 function MainPage() {
-  const handleCamera = (prop) => {
-    console.log("handleCamera:", prop.camera);
-  };
-  const scrollToWorks = () => {
-    const worksSection = document.getElementById("postSection");
-    worksSection.scrollIntoView({ behavior: "smooth" });
-  }
   return (
     <div>
       <div className="main-section" id="main-section">
         <div className="mainpage">
           <div className="detail">
             <div className="name">
-              <h3>김영중</h3>
+              <h1>무한히 채워나가는</h1>
+              <h3>김영중<span> 입니다!</span></h3>
               <div className="job">Full-stack developer</div>
             </div>
             <div className="text">
@@ -38,14 +28,12 @@ function MainPage() {
               </p>
             </div>
             <div className="button">
-              <div className="left-button">
-                <a href="resume.pdf" target={"_blank"}>이력서보기
-                  <img src="./resumearrow.svg" alt="" />
+                <a href="resume.pdf" target={"_blank"} className="left-button">이력서보기
+                  <img src="./resumearrow.svg" alt="이력서" />
                 </a>
-              </div>
               <div className="right-button">
-                <a onClick={scrollToWorks} className="a-link">작업물보기
-                  <img src="./arrow.svg" alt="" />
+                <a href="https://github.com/Youngjung3" target={"_blank"} className="a-link">깃허브보기
+                  <img src="./arrow.svg" alt="깃허브" />
                 </a>
               </div>
             </div>
@@ -66,9 +54,7 @@ function MainPage() {
           </div> */}
           <div className="profileImg">
             <div className="img">
-            <div class="three">
-            </div>
-              {/* <img src="/pic1.jpg" alt="" /> */}
+              <img src="/pic2.jpg" alt="pic" />
               <div className="video-button">
                 <a href="#!" className="video"></a>
               </div>

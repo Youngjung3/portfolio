@@ -192,3 +192,14 @@
     max-height: 80px;
     margin-left: 50px;
 }
+@media screen and (max-width: 933px) {
+    .secondSection .about .inner .left{
+        width: 40%;
+    }
+    .secondSection .about .inner .right{
+        width: 40%;
+    }
+    span{
+        white-space: nowrap;
+    }
+  }
