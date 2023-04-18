@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@headlessui/react": "^1.7.14",
-    "@heroicons/react": "^2.0.17",
     "@react-spring/web": "^9.7.2",
     "@react-three/drei": "^9.65.3",
     "@react-three/fiber": "^8.12.1",
