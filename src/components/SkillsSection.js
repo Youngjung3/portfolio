@@ -25,10 +25,6 @@ function Number({ n }) {
 
 
 const SkillsSection = () => {
-    const scrollToWorks = () => {
-        const worksSection = document.getElementById("postSection");
-        worksSection.scrollIntoView({ behavior: "smooth" });
-      };
     const numberRef=useRef(null);
     const [isAnimated,setIsAnimated]=useState(false);
     useEffect(()=>{
@@ -58,7 +54,7 @@ const SkillsSection = () => {
                                 <p>또한, JavaScript, PHP, JSP, C++, JAVA, Python 등 다양한 언어를 다룰 수 있어 다양한 분야에서 일할 수 있습니다.</p>
                             </div>
                             <div className="button">
-                                <a onClick={scrollToWorks}>기술 작업물보기</a>
+                                <a href="https://github.com/Youngjung3" target={"_blank"}>깃허브 보기</a>
                             </div>
                         </div>
                         <div className="right">

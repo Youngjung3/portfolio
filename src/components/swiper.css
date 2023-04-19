@@ -93,14 +93,21 @@
     padding: 0 5px 10px;
     font-size: 14px;
     font-weight: 600;
+    margin-left: 30px;
     color: #ccc;
   }
   .swiper .list_inner .list-body .title::before{
-    content: "🟠 ";
-    font-size: 1px;
-    opacity: 0.7;
-    position: relative;
-    top: -1px;
+   content: "";
+   display: block;
+   width: 8px;
+   height: 8px;
+   background-color: orange;
+   border-radius: 50%;
+   opacity: 0.7;
+   position: relative;
+   top: 10px;
+   left: -15px;
+   margin-right: 8px;
   }
   .swiper .list_inner .list-body .list-title{
     margin: 10px;
@@ -136,18 +143,24 @@
   }
   .swiper .list_inner2 .list-body .title{
     text-align: left;
-    margin: 0 10px;
+    margin: 0 30px;
     padding: 0 5px 10px;
     font-size: 14px;
     font-weight: 600;
     color: #ccc;
   }
   .swiper .list_inner2 .list-body .title::before{
-    content: "🟠 ";
-    font-size: 1px;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: orange;
+    border-radius: 50%;
     opacity: 0.7;
     position: relative;
-    top: -1px;
+    top: 10px;
+    left: -15px;
+    margin-right: 8px;
   }
   .swiper .list_inner2 .list-body .list-title{
     margin: 10px;
@@ -164,4 +177,53 @@
   .swiper .list_inner2 .list-body p span{
     display: inline-block;
     width: 91px;
+  }
+  .swiper .list_inner2 .qrcode{
+    max-width: 60px;
+    width: 100%;
+  }
+  .swiper .list_inner2 .qrline{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+  }
+  .qrp{
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #ff0000;
+  }
+  .android-icon {
+    font-size: 40px;
+    margin-right: 10px;
+    
+  }
+  
+  @media (max-width: 1070px) {
+    .swiper .list_inner2 .list-body{
+      margin-top: 90px;
+    }
+  }
+  @media (max-width: 902px) {
+    .swiper .list_inner2 .list-body{
+      margin-top: 50px;
+    }
+  }
+  @media (max-width: 840px) {
+    .swiper .list_inner2 .qrcode {
+      max-width: 80px;
+      width: 100%;
+    }
+    .swiper .list_inner2 .android-icon{
+      font-size: 60px;
+    }
+    .swiper-slide .img {
+      margin: auto;
+      width: 100%;
+      height: auto;
+    }
   }
