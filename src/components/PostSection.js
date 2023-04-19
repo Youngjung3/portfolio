@@ -53,7 +53,7 @@ const PostSection = () => {
                   <div className="list-title">울진군문화관광</div>
                   <div className="list-detail">
                     <p><span>1. &nbsp;구&nbsp;현&nbsp;기&nbsp;술</span>: Html, Css, JQuery, Javascript, Php, MySQL</p>
-                    <p className="d-flex"><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: Dothome</p>
+                    <p className="gitm"><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: Dothome <a href="https://github.com/Youngjung3/project1" target={"_blank"}>깃허브</a></p>
                     <p><span>3. 작&nbsp;업&nbsp;기&nbsp;간</span>: 3주</p>
                     <p><span>4. 본인기여도</span>: 100%</p>
                     <a href="project1.pdf"  target="_blank">
@@ -74,9 +74,9 @@ const PostSection = () => {
                   <div className="list-title">YORI JORI</div>
                   <div className="list-detail">
                     <p><span>1. &nbsp;구&nbsp;현&nbsp;기&nbsp;술</span>:  Bootstrap, Scss, Javascript </p>
-                    <p><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: Github</p>
+                    <p className="gitm"><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: Github<a href="https://github.com/kimminjung96/YORIJORI" target={"_blank"}>깃허브</a></p>
                     <p><span>3. 작&nbsp;업&nbsp;기&nbsp;간</span>: 2주</p>
-                    <p><span>4. 본인기여도</span>: 20%</p>
+                    <p><span>4. 본인기여도</span>: 20% -  5인 팀프로젝트</p>
                     <a href="yorijori.pdf"  target="_blank">
                       <p><span>5. 기&nbsp;&nbsp;&nbsp; 획 &nbsp;&nbsp;&nbsp;서</span>: 기획서보기</p>
                     </a>
@@ -95,9 +95,9 @@ const PostSection = () => {
                   <div className="list-title">Onetrip</div>
                   <div className="list-detail">
                     <p><span>1. &nbsp;구&nbsp;현&nbsp;기&nbsp;술</span>: React, Node js(Express), SQLite, Scss</p>
-                    <p><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: Vercel, CloudType</p>
+                    <p className="gitm"><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: Vercel, CloudType<a href="https://github.com/kimminjung96/OneTrip" target={"_blank"}>깃허브</a></p>
                     <p><span>3. 작&nbsp;업&nbsp;기&nbsp;간</span>: 3주</p>
-                    <p><span>4. 본인기여도</span>: 25% </p>
+                    <p><span>4. 본인기여도</span>: 25% - 4인 팀프로젝트 </p>
                     <a href="onetrip.pdf"  target="_blank">
                       <p><span>5. 기&nbsp;&nbsp;&nbsp; 획 &nbsp;&nbsp;&nbsp;서</span>: 기획서보기</p>
                     </a>

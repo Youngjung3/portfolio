@@ -125,6 +125,14 @@
     display: inline-block;
     width: 91px;
   }
+  .swiper .list_inner .list-body .gitm{
+    position: relative;
+  }
+  .swiper .list_inner .list-body .gitm a{
+    position: absolute;
+    right: 0;
+    text-decoration: underline;
+  }
   .swiper .list_inner2{
     width: 90%;
     margin: auto;
