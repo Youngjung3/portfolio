@@ -45,7 +45,7 @@ const Header = () => {
             <a onClick={scrollToWorks}>
               <div
                 ref={loop}
-                style={{ width: 150, position: "absolute", left: 0, top: 0 }}
+                style={{ width: 150, position: "relative", left: 0, top: 0 }}
               ></div>
             </a>
           </div>

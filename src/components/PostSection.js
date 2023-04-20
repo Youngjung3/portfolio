@@ -59,7 +59,7 @@ const PostSection = () => {
                     <a href="project1.pdf"  target="_blank">
                       <p><span>5. 기&nbsp;&nbsp;&nbsp; 획 &nbsp;&nbsp;&nbsp;서</span>: 기획서보기</p>
                     </a>
-                    <p><span>6. 특징&nbsp;/&nbsp;기능</span>: 관공서페이지 / CRUD 구현 </p>
+                    <p><span>6. 특징&nbsp;/&nbsp;기능</span>: 관공서페이지 / CRUD 구현, Rest Api </p>
                   </div>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const PostSection = () => {
                     <a href="onetrip.pdf"  target="_blank">
                       <p><span>5. 기&nbsp;&nbsp;&nbsp; 획 &nbsp;&nbsp;&nbsp;서</span>: 기획서보기</p>
                     </a>
-                    <p><span>6. 특징&nbsp;/&nbsp;기능</span>: 풀스택 React 프로젝트 / CRUD구현 </p>
+                    <p><span>6. 특징&nbsp;/&nbsp;기능</span>: 풀스택 React 프로젝트 / CRUD구현 Rest Api </p>
                   </div>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const PostSection = () => {
                     <p><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: Apk</p>
                     <p><span>3. 작&nbsp;업&nbsp;기&nbsp;간</span>: 1주</p>
                     <p><span>4. 본인기여도</span>: 100%</p>
-                    <p><span>5. 특징&nbsp;/&nbsp;기능</span>: 원트립 사이트를 React-native앱으로 구현</p>
+                    <p><span>5. 특징&nbsp;/&nbsp;기능</span>: 원트립 사이트를 React-native앱으로 구현, Rest Api</p>
                     <p className="qrp">QR코드를 스캔하세요.</p>
                     <div className="qrline">
                      <AndroidOutlined className="android-icon"/>

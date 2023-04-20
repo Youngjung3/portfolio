@@ -1,4 +1,5 @@
 // import React from "react";
+import { useEffect, useState } from "react";
 import SecondSection from "./SecondSection";
 import SkillsSection from "./SkillsSection";
 // import ServiceSection from "./ServiceSection";
@@ -12,19 +13,43 @@ import React from 'react'
 
 
 function MainPage() {
+  
+  let text = "Growth Corder";
+let [typedText, setTypedText] = useState("");
+
+useEffect(() => {
+  let i = 0;
+  let typing = setInterval(() => {
+    if (text.length === i) clearInterval(typing);
+    setTypedText((prev) => {
+      let char = text[i];
+      i++;
+      if (typeof char === "string") {
+        return prev + char;
+      } else {
+        return text;
+      }
+    });
+  }, 300);
+  
+}, []);
+
+
   return (
+    
     <div>
       <div className="main-section" id="main-section">
         <div className="mainpage">
           <div className="detail">
             <div className="name">
-              <h1>무한히 채워나가는</h1>
-              <h3>김영중<span> 입니다!</span></h3>
-              <div className="job">Full-stack developer</div>
+              <h1>배움을 즐기는</h1>
+              <h3>{typedText}<span>_</span></h3>
+              <div className="job">무한히 성장해 나갈 풀스택 개발자</div>
             </div>
             <div className="text">
+            
               <p>
-              항상 새로운 기술과 개발 방법론에 관심을 가지며, 동료 개발자들과 함께 끊임없이 성장하는 것을 추구하는 김영중입니다.
+              김영중입니다.
               </p>
             </div>
             <div className="button">

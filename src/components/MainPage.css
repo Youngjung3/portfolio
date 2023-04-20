@@ -23,7 +23,12 @@ a{text-decoration: none; color: #666;}
 .main-section .name{
     margin-bottom: 32px;
 }
-/* .main-section .name h1{} */
+.main-section .name h1{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -4px;
+    margin-bottom: 11px;
+}
 .main-section .name h3{
     font-size: 80px;
     font-weight: 500;
@@ -35,7 +40,7 @@ a{text-decoration: none; color: #666;}
     font-weight: 400;
 }
 .main-section .job{
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 87px;
     display: inline-block;
     position: relative;
@@ -53,7 +58,7 @@ a{text-decoration: none; color: #666;}
     margin-bottom: 70px;
 }
 .main-section .text p{
-    font-size: 16px;
+    font-size: 40px;
     color: #5a5a5a;
     line-height: 26px;
     max-width: 400px;
