@@ -53,7 +53,7 @@ useEffect(() => {
               </p>
             </div>
             <div className="button">
-                <a href="resume.pdf" target={"_blank"} className="left-button">이력서보기
+                <a href="https://drive.google.com/file/d/1LKQhNwyki5hlstLv-b_o4wrLA_mAiwOk/view?usp=share_link" target={"_blank"} className="left-button">이력서보기
                   <img src="./resumearrow.svg" alt="이력서" />
                 </a>
               <div className="right-button">

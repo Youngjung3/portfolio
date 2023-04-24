@@ -39,7 +39,7 @@ const SecondSection = () => {
             </div>
             <div className="bottom">
                 <div className="bottom-button">
-                <a href="resume.pdf" target={"_blank"}>이력서보기</a>
+                <a href="https://drive.google.com/file/d/1LKQhNwyki5hlstLv-b_o4wrLA_mAiwOk/view?usp=share_link" target={"_blank"}>이력서보기</a>
                 </div>
                 {/* <img src="./sign.png" alt="" /> */}
             </div>

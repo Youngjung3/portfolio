@@ -211,6 +211,38 @@
     
   }
   
+  .bg{
+    position: relative;
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    background-color: skyblue;
+    overflow: hidden;
+}
+  .thumb{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0;
+    transition: top 5s;
+    cursor: pointer;;
+}
+.thumb span{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    background: url("../../public/yori-full.png") no-repeat;
+    background-size: contain;
+    z-index: 999999999999999999;
+}
+
+
+
   @media (max-width: 1070px) {
     .swiper .list_inner2 .list-body{
       margin-top: 90px;

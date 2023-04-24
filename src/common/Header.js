@@ -72,7 +72,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="h-button">
-          <a href="resume.pdf" target={"_blank"}>이력서보기</a>
+          <a href="https://drive.google.com/file/d/1LKQhNwyki5hlstLv-b_o4wrLA_mAiwOk/view?usp=share_link" target={"_blank"}>이력서보기</a>
           </div>
         </div>
       </div>
