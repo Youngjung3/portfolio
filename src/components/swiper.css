@@ -76,13 +76,14 @@
   }
   .swiper-slide .img{
     width: 100%;
-    max-width: 500px;
-    height: 300px;
+    max-width: 440px;
+    height: 240px;
+    margin: auto;
   }
   .swiper .list_inner{
     width: 90%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 18px;
   }
   .swiper .list_inner .img img{
     width: 100%;
@@ -213,17 +214,16 @@
   
   .bg{
     position: relative;
-    width: 95%;
-    height: 300px;
+    width: 100%;
+    max-width: 440px;
+    height: 240px;
     margin: auto;
-    background-color: skyblue;
     overflow: hidden;
 }
   .thumb{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: red;
     display: block;
     left: 50%;
     transform: translate(-50%);
@@ -240,12 +240,47 @@
     background-size: contain;
     z-index: 999999999999999999;
 }
+.href{
+  margin-top: 20px;
+}
+.href a{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 0 15px;
+  border-radius: 4px;
+  color: #ffc448;
+  line-height: 2.3;
+  font-size: 14px;
+  height: 36px;
+  word-spacing: 0px;
+  letter-spacing: .0892857143em;
+  text-transform: uppercase;
+  min-width: 64px;
+  border: 1px solid #ffc448;
+  text-align: center;
+  margin: 0 20px;
+}
+.href a:hover{
+  color: #fff;
+  background-color: #ffc448aa;
+}
 
 
-
+  @media (max-width: 1150px) {
+    .swiper .list_inner2 .list-body{
+      margin-top: 70px;
+    }
+  }
   @media (max-width: 1070px) {
     .swiper .list_inner2 .list-body{
-      margin-top: 90px;
+      margin-top: 60px;
+    }
+  }
+  @media (max-width: 950px) {
+    .swiper .list_inner2 .list-body{
+      margin-top: 55px;
     }
   }
   @media (max-width: 902px) {
@@ -266,4 +301,7 @@
       width: 100%;
       height: auto;
     }
+    .thumb span{
+      width: 100%;
+  }
   }

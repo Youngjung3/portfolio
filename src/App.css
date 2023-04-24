@@ -5,6 +5,7 @@
   font-style: normal;
 } */
 body {font-family: 'SUIT', sans-serif;}
+
 .pointer {
   position: fixed;
   transform: translate(-50%, -50%);
@@ -16,7 +17,8 @@ body {font-family: 'SUIT', sans-serif;}
   border-radius: 50%;
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
   opacity: 0.3;
-  z-index: 9999;
+  z-index: 99999;
+  pointer-events: none;
 }
 
 .pointer.md {
