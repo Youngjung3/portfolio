@@ -79,7 +79,7 @@ useEffect(() => {
           </div> */}
           <div className="profileImg">
             <div className="img">
-              <img src="/pic2.jpg" alt="pic" />
+              <img src="/expng.png" alt="pic" />
               <div className="video-button">
                 <a href="#!" className="video"></a>
               </div>
