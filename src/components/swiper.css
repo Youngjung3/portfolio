@@ -266,7 +266,9 @@
   color: #fff;
   background-color: #ffc448aa;
 }
-
+.colorp{
+  color: #ffc448;
+}
 
   @media (max-width: 1150px) {
     .swiper .list_inner2 .list-body{

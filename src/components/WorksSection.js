@@ -56,7 +56,7 @@ const WorksSection = () => {
                                 <div className="list-inner">
                                     <h3>
                                         <span className="list-counter" ref={numberRef}>
-                                            {isAnimated && <Number n={100} />}
+                                            {isAnimated && <Number n={95} />}
                                         </span>
                                     </h3>
                                     <span className="title">React</span>
@@ -86,7 +86,7 @@ const WorksSection = () => {
                                 <div className="list-inner">
                                     <h3>
                                     <span className="list-counter" ref={numberRef}>
-                                            {isAnimated && <Number n={90} />}
+                                            {isAnimated && <Number n={93} />}
                                         </span>
                                     </h3>
                                     <span className="title">JAVA</span>

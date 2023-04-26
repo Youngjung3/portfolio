@@ -18,7 +18,7 @@ const SecondSection = () => {
                 <p><span className="bet">연&nbsp;&nbsp;락&nbsp;&nbsp;처</span> : <span>010-2733-5396</span></p>
                 <p><span className="bet">이&nbsp;&nbsp;메&nbsp;&nbsp;일</span> :<span> youngj5396@gmail.com</span></p>
                 <p><span className="bet">깃&nbsp;&nbsp;허&nbsp;&nbsp;브</span> :<span><a href="https://github.com/Youngjung3" target="blank"> https://github.com/Youngjung3</a></span></p>
-                <p><span className="bet">거&nbsp;&nbsp;주&nbsp;&nbsp;지</span> : <span>경기도 안양</span></p>
+                <p><span className="bet">거&nbsp;&nbsp;주&nbsp;&nbsp;지</span> : <span>경기도 안양 (인덕원, 평촌)</span></p>
             </div>
             <div className="box">
               <h3 className="year">{<img src="./infinity.svg" alt="" />}</h3>
