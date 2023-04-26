@@ -33,9 +33,9 @@ const SecondSection = () => {
                 </h3>
             </div>
             <div className="text">
-                <p>2015.03 ~ 2022.02 한신대학교 컴퓨터공학부 학사졸업</p>
-                <p>2015.04 ~ 2022.02 컴퓨터공학부 ComVi 전공랩실 소속</p>
-                <p>2022.11 ~ 2023.05 그린컴퓨터학원 프론트앤드과정 수료</p>
+                <p>한신대학교 컴퓨터공학부 학사졸업&nbsp;&nbsp;&nbsp; 2015.03 ~ 2022.02 </p>
+                <p>컴퓨터공학부 ComVi 전공랩실 소속 2015.04 ~ 2022.02 </p>
+                <p>그린컴퓨터학원 프론트앤드과정 수료 2022.11 ~ 2023.05 </p>
             </div>
             <div className="bottom">
                 <div className="bottom-button">
