@@ -249,7 +249,14 @@ const PostSection = () => {
                     <p><span>1. &nbsp;구&nbsp;현&nbsp;기&nbsp;술</span>: Java </p>
                     <p><span>2. 배&nbsp;포&nbsp;매&nbsp;체</span>: Apk</p>
                     <p><span>3. 작&nbsp;업&nbsp;기&nbsp;간</span>: 2주</p>
-                    <p><span>4. 본인기여도</span>: 100%</p>
+                    <a href="pilter.pdf" target="_blank">
+                      <p>
+                        <span>
+                          4. 기&nbsp;&nbsp;&nbsp; 획 &nbsp;&nbsp;&nbsp;서
+                        </span>
+                        : <span className="colorp">기획서보기</span>
+                      </p>
+                    </a>
                     <p><span>5. 특징&nbsp;/&nbsp;기능</span>: 안드로이드 스튜디오에서 만든 Android Native App</p>
                     <p className="qrp">QR코드를 스캔하세요.</p>
                     <div className="qrline"><AndroidOutlined className="android-icon"/><img src="./pilterapp.png" alt="필터QR" className="qrcode"/></div>
