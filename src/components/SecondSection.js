@@ -15,7 +15,8 @@ const SecondSection = () => {
             <div className="text">
                 <p><span className="bet">이 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 름</span> : <span className="bet1">김영중</span></p>
                 <p><span className="bet bet1">생년월일</span> : <span>96.10.25</span></p>
-                <p><span className="bet">연&nbsp;&nbsp;락&nbsp;&nbsp;처</span> : <span>010-2733-5396</span></p>
+                {/* <p><span className="bet">연&nbsp;&nbsp;락&nbsp;&nbsp;처</span> : <span>010-2733-5396</span></p> */}
+                <p><span className="bet">연&nbsp;&nbsp;락&nbsp;&nbsp;처</span> : <span>이력서에 포함</span></p>
                 <p><span className="bet">이&nbsp;&nbsp;메&nbsp;&nbsp;일</span> :<span> youngj5396@gmail.com</span></p>
                 <p><span className="bet">깃&nbsp;&nbsp;허&nbsp;&nbsp;브</span> :<span><a href="https://github.com/Youngjung3" target="blank"> https://github.com/Youngjung3</a></span></p>
                 <p><span className="bet">거&nbsp;&nbsp;주&nbsp;&nbsp;지</span> : <span>경기도 안양 (인덕원, 평촌)</span></p>

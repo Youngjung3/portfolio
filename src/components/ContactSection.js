@@ -102,8 +102,11 @@ const ContactSection = () => {
                 <li>
                   <span className="name">Call:</span>
                   <p>
-                    <a href="#!" className="line-effect">
+                    {/* <a href="#!" className="line-effect">
                       010 2733 5396
+                    </a> */}
+                    <a href="#!" className="line-effect">
+                      이력서에 포함
                     </a>
                   </p>
                 </li>
